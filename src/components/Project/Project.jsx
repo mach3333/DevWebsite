@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Project.css"
-import { back} from "../../assets"
 
 const Project = ({ title, description, link, img}) => {
   return (
