@@ -1,4 +1,4 @@
-import { Homebar, Title, Fish } from "./components"
+import { Homebar, Title} from "./components"
 import { motion } from "motion/react"
 function Home() {
   return (

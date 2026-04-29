@@ -28,7 +28,7 @@ function Contact() {
               <span className="highlight">mhirakawa04@gmail.com</span>
             </div>
             <div className="text2"> <br></br>Connect on LinkedIn! <br></br>
-              <a href="https://www.linkedin.com/in/marissa-hirakawa" target="_blank">
+              <a href="https://www.linkedin.com/in/marissa-hirakawa" target="_blank" rel="noreferrer">
                 <span className="highlight">linkedin.com/in/marissa-hirakawa</span>
               </a>
             </div>

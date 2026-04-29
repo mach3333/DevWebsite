@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { back, bubble3, propic } from "./assets"
+import { back, propic } from "./assets"
 import { Tag } from "./components"
 import { tags, info } from "./aboutData"
 import { motion } from "motion/react"
@@ -48,7 +48,7 @@ function About() {
                     <Tag key={p} skill={p} />
                   ))}
                 </div>
-                <p>For more information, view my <span className="highlight"><a href={"https://drive.google.com/file/d/1WWOJyFsI946C91FK-Cnilcqe80Q-QPdD/view?usp=sharing"}target="_blank">resume</a></span>!</p>
+                <p>For more information, view my <span className="highlight"><a href={"https://drive.google.com/file/d/1WWOJyFsI946C91FK-Cnilcqe80Q-QPdD/view?usp=sharing"}target="_blank" rel="noreferrer">resume</a></span>!</p>
               </div>
             </div>
           </div>

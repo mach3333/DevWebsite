@@ -37,7 +37,7 @@ function Projects() {
           </div>
         </div>
         <br/>
-        <a href="https://github.com/mach3333" target="_blank">Github</a>
+        <a href="https://github.com/mach3333" target="_blank" rel="noreferrer">Github</a>
         <div className='highlight2'>
 That's all for now!
         </div>

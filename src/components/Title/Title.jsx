@@ -1,5 +1,6 @@
 import "./Title.css"
-import { bubble, light, dark, triangle } from "../../assets"
+import { bubble,  dark, triangle } from "../../assets"
+//light asset exists ^^ when dark mode added
 
 const Title = () => {
   return (
