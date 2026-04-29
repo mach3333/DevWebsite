@@ -1,0 +1,18 @@
+import about from "./about.svg"
+import contact from "./contact.svg"
+import projects from "./projects.svg"
+import fingerling from "./fingerling.png"
+import juvenile from "./juvenile.png"
+import light from "./lightmode.svg"
+import dark from "./darkmode.svg"
+import bubble from "./textbubble.svg"
+import triangle from "./triangle.svg"
+import bar from "./bar.svg"
+import bubble2 from "./textbubble2.svg"
+import back from "./back.svg"
+import bubble3 from "./textbubble3.svg"
+import propic from "./me.JPG"
+import p1 from "./pimg/aquaponics.png"
+import p2 from "./pimg/photo.png"
+
+export {about, contact, projects,fingerling, juvenile, light, dark, bubble, triangle, bar, back, bubble2, bubble3, propic, p1, p2};

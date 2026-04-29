@@ -1,0 +1,29 @@
+.containerMenu {
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;  
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    
+}
+
+.containerOver{
+     padding-top: 5%;
+    padding-left: 12%;
+    background-color: transparent;
+}
+
+.highlight2{
+    display: flex;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      align-items: center;
+      justify-content: center;
+     color: var(--yellow-color);
+}
+* {
+  outline: 1px solid red;
+}

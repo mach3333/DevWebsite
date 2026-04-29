@@ -1,0 +1,41 @@
+.text2 {
+    display: block;
+    /* stack vertically */
+    font-size: 1.2vw;
+    margin: 0.2em 0;
+    /* spacing between lines */
+    white-space: nowrap;
+}
+
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.container2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 30%;
+    filter: drop-shadow(0 2px 1px var(--dark-color));
+}
+
+.backbutton {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    font-family: "Inter";
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.fish-background {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+     pointer-events: none;
+
+}
+
+.fish-wrapper {
+    position: absolute;
+    display: block;
+  animation-name: swimAcross;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  display: inline-block; /* important */
+}
+
+@keyframes swimAcross {
+    from {
+        transform: translateX(110vw);
+    }
+
+    to {
+        transform: translateX(-100vw);
+    }
+}

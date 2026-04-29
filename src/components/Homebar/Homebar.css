@@ -1,0 +1,50 @@
+.rim {
+    position: absolute;
+     top: 65%;
+     left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    border: none;
+    position: absolute;
+}
+
+.bar_button {
+background-color: transparent;
+border: none;
+padding: 0.8vw 1.5vw;
+
+}
+
+.bar_button:hover {
+  transform: scale(1.2);
+}
+
+.bar_button:hover .tooltiptext {
+ visibility: visible;
+    opacity: .9;
+    background-color: var(--offwhite-color);
+    color: var(--dandelion-color);
+    font-weight: bold;
+}
+
+
+.bar_button .tooltiptext {
+  visibility: hidden;
+   width: 10vw;
+  font-size: 0.9vw;
+  padding: 0.4vw;
+  border-radius: 0.5vw;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position above the text */
+  left: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  transform: translateX(-50%);
+}

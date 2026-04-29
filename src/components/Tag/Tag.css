@@ -1,0 +1,17 @@
+.tag {
+  padding: clamp(2px, 1vh, 5px) 8px;
+  border-radius: 10px;
+  background-color: grey; /* or gradient */
+  display: inline-flex;
+  align-items: center;
+  margin: 1px;
+}
+.tagbox{
+  font-family: "Inter";
+  
+}
+.tag span {
+  color: var(--offwhite-color);
+  white-space: nowrap;
+  font-size: 1vw;
+}

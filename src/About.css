@@ -1,0 +1,97 @@
+.container5 {
+    width: 70%;
+    /* increase this */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerAbout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textlayout {
+    position: absolute;
+    inset: 0;
+    /* shorthand for top/left/right/bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* start at top */
+    align-items: stretch;
+    /* take full width */
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+.profile-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 2%;
+}
+
+.profile-row .profile-img {
+    width: 25%;
+    height: auto;
+    margin-left: 5%;
+    object-fit: cover;
+    flex-shrink: 0;
+    object-position: top;
+    border-radius: 9999px;
+   margin-bottom: 2vw;
+}
+
+.profile-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-section {
+    padding-left: 10%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* total is padding + width */
+}
+
+.bolded {
+    text-align: left;
+    font-weight: bold;
+     font-size: 1vw;
+}
+
+.boldeder {
+    text-align: left;
+    font-size: 2vw;
+}
+
+.skillsMenu {
+    align-content: flex-start; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5vw;
+    justify-content: flex-start;
+}
+.bubbleAbout{
+ position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    height: 35vw;
+    width: 60vw;
+    padding: 1vw;
+    background-color: var(--offwhite-color);
+    filter: drop-shadow(0 2px 1px var(--dark-color));
+    border-radius: 25px;
+    gap: 1vw;
+}
