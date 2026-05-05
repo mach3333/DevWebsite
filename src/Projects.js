@@ -2,7 +2,7 @@
 import { useNavigate } from 'react-router-dom';
 import "./Projects.css"
 import { Project } from "./components"
-import { back } from "./assets"
+import { back, git } from "./assets"
 import projects from "./projectsData"
 import { motion } from "motion/react"
 
@@ -36,10 +36,14 @@ function Projects() {
             ))}
           </div>
         </div>
-        <br/>
-        <a href="https://github.com/mach3333" target="_blank" rel="noreferrer">Github</a>
-        <div className='highlight2'>
-That's all for now!
+        <br />
+        <div className="projectfoot">
+          <a href="https://github.com/mach3333" className="github" target="_blank" rel="noreferrer">
+            <img src={git} className="git" alt="github logo"></img>
+          </a>
+          <div className='highlight2'>
+            That's all for now!
+          </div>
         </div>
       </div>
     </motion.div>

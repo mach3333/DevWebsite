@@ -30,11 +30,14 @@ function About() {
                 <img src={propic} alt="profile" className="profile-img" />
 
                 <div className="profile-content">
-                  <div className="boldeder">Hi! I'm Marissa Hirakawa</div>
+               <div className="boldeder">Marissa Hirakawa</div>
+               <div className="nametag">Front-end developer and designer</div>
+
                   <p>{info.intro}</p>
 
                   <div className="bolded">EDUCATION</div>
                   <span>{info.education}</span>
+                  <span className='school'>| Virginia Tech (2025)</span>
                   <br></br>
                   <div className="bolded">OTHER INTERESTS</div>
                   <span>{info.interests}</span>
@@ -48,7 +51,7 @@ function About() {
                     <Tag key={p} skill={p} />
                   ))}
                 </div>
-                <p>For more information, view my <span className="highlight"><a href={"https://drive.google.com/file/d/1WWOJyFsI946C91FK-Cnilcqe80Q-QPdD/view?usp=sharing"}target="_blank" rel="noreferrer">resume</a></span>!</p>
+                <p>For more information, view my <span className="highlight"><a href={"https://drive.google.com/file/d/1keRzuMoSA7JMcM1oBIufisS02Rwq-kZq/view?usp=sharing"}target="_blank" rel="noreferrer">resume</a></span>!</p>
               </div>
             </div>
           </div>

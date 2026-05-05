@@ -14,5 +14,6 @@ import bubble3 from "./textbubble3.svg"
 import propic from "./me.JPG"
 import p1 from "./pimg/aquaponics.png"
 import p2 from "./pimg/photo.png"
+import git from "./github.svg"
 
-export {about, contact, projects,fingerling, juvenile, light, dark, bubble, triangle, bar, back, bubble2, bubble3, propic, p1, p2};
+export {about, contact, projects,fingerling, juvenile, light, dark, bubble, triangle, bar, back, bubble2, bubble3, propic, p1, p2, git};

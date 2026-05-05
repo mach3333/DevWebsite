@@ -1,18 +1,19 @@
 export const info =
-  {
-    intro: "A developer focused on UI/UX design and front-end development. I like to solve problems while keeping the user experience in mind. ",
-    education: "Bachelor’s in Computer Science, Minor in Japanese \nVirginia Tech (2025)",
-    interests: "Graphic design, Painting, Nintendo",
-  };
+{
+  intro: "Hi! I’m a software developer passionate about creating intuitive and engaging user experiences through interface design. I enjoy turning ideas into responsive, user-centered applications that balance functionality and visual clarity.",
+  education: "Bachelor’s in Computer Science, Minor in Japanese",
+  interests: "Graphic design, Painting, Nintendo games",
+};
 
 export const tags = [
-  "UI/UX Design",
-  "React",
-  "D3.js",
-  "Java",
   "Javascript",
+  "React",
+  "HTML",
+  "CSS",
+  "Git",
   "Python",
-   "HTML",
-    "CSS",
-     "Figma",
+  "Java",
+  "Figma",
+  "UI/UX Design",
+
 ];

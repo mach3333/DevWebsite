@@ -1,5 +1,5 @@
 .container5 {
-    width: 70%;
+     width: 70%;
     /* increase this */
     height: 100vh;
     display: flex;
@@ -40,12 +40,14 @@
 .profile-row .profile-img {
     width: 25%;
     height: auto;
-    margin-left: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
     object-fit: cover;
     flex-shrink: 0;
-    object-position: top;
+    object-position: center;
     border-radius: 9999px;
-   margin-bottom: 2vw;
+   margin-bottom: 1vw;
 }
 
 .profile-content {
@@ -53,6 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.1vw;
 }
 
 .skills-section {
@@ -60,18 +63,30 @@
     width: fit-content;
     display: flex;
     flex-direction: column;
+       font-size: 1.1vw;
     /* total is padding + width */
 }
 
 .bolded {
     text-align: left;
     font-weight: bold;
-     font-size: 1vw;
 }
 
 .boldeder {
-    text-align: left;
+    text-align:center;
     font-size: 2vw;
+    font-weight: bold; 
+    margin-right: 10%;
+}
+
+.nametag{
+     text-align:center;
+ font-weight: bold; 
+font-size: 1vw;
+color: var(--dark-color);
+ margin-right: 10%;
+
+
 }
 
 .skillsMenu {
@@ -80,6 +95,7 @@
     flex-wrap: wrap;
     gap: .5vw;
     justify-content: flex-start;
+ 
 }
 .bubbleAbout{
  position: relative;
@@ -87,11 +103,16 @@
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
-    height: 35vw;
+    height: 30vw;
     width: 60vw;
     padding: 1vw;
     background-color: var(--offwhite-color);
     filter: drop-shadow(0 2px 1px var(--dark-color));
     border-radius: 25px;
     gap: 1vw;
+}
+
+.school {
+    font-size: 90%;
+    padding-left: 1%;
 }

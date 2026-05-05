@@ -1,36 +1,21 @@
-import {p1, p2} from "./assets"
+import { p1, p2 } from "./assets"
 
 const projects = [
   {
-    title: "Aquaponics Sim",
-    description: "Frontend-heavy simulation project",
+    title: "Grow n' Flow",
+    description: `Interactive web application simulating aquaponics systems for secondary students as part of the New River Valley Aquaponics Initiative.
+Implements frontend-driven simulations and instructional flows to demonstrate biological interactions and system behavior.`,
     link: "https://jlrood.github.io/Aquaponics3/",
-    img:p1,
+    img: p1,
   },
   {
-    title: "UX Portfolio",
-    description: "Design-focused UI/UX work",
+    title: "Photography Portfolio",
+    description: `Responsive photography portfolio website using HTML, CSS, and JavaScript 
+    to  personal photography work, featuring adaptive image scaling and interactive gallery navigation.`,
     link: "https://mach3333.github.io/index.html",
     img: p2,
   },
-   {
-    title: "UX Portfolio",
-    description: "Design-focused UI/UX work",
-    link: "[placeholder]",
-    img:"",
-  },
-    {
-    title: "UX Portfolio",
-    description: "Design-focused UI/UX work",
-    link: "[placeholder]",
-    img:"",
-  },
-    {
-    title: "UX Portfolio",
-    description: "Design-focused UI/UX work",
-    link: "[placeholder]",
-    img:"",
-  },
+
   /* template
    {
     title: "[ ]",

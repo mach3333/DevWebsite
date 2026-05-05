@@ -10,9 +10,9 @@
 .bubble3 {
     position: relative;
     display: flex;
+
     justify-content: flex-start;
     flex-direction: row;
-    align-items: center;
     height: 12vw;
     width: 40vw;
     padding: 1vw;
@@ -23,20 +23,24 @@
 }
 
 .textbox2 {
+    padding-top:2%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     overflow-y: auto;
     flex: 1;
+     justify-content: flex-start; 
 }
 
 .text3 {
-    padding: 3%;
+    padding-top: 2%;
+    padding-right: 5%;
     font-size: 75%;
     font-family: "Inter";
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: left;
+   
 }
 
 a {
@@ -44,6 +48,7 @@ a {
 }
 
 .bubble3 img {
+    padding-top:2%;
     width: 35%;
     height: 75%;
 }
